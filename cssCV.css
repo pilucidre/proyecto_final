@@ -1,0 +1,35 @@
+
+
+*{
+	box-sizing: border-box;     /** PARA QUE EL PADDING Y EL BORDER SEAN CONTEMPLADOS AL MEDIR EL TAMAÑO DE LOS ELEMENTOS */
+  	border-width: 45px;
+    margin-top: 10px;
+}  
+
+
+.parrafos{
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
